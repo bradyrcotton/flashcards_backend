@@ -10,9 +10,10 @@ from django.http import Http404
 class CardList(APIView):
 
     def get(self, request):
-        card = Collection.objects.all()
-        serializer = CollectionSerializer(card, many=True)
+        card = Card.objects.all()
+        serializer = CardSerializer(card, many=True)
         return Response(serializer.data)
+
 
     def post(self, request):
         serializer = CardSerializer(data=request.data)
@@ -28,3 +29,18 @@ class CollectionList(APIView):
         card = Collection.objects.all()
         serializer = CollectionSerializer(card, many=True)
         return Response(serializer.data)
+
+
+
+
+
+
+
+
+
+
+
+    # def get(self, request):
+    #     card = Collection.Card.objects.all()
+    #     serializer = CardSerializer(card, many=True)
+    #     return Response(serializer.data)
