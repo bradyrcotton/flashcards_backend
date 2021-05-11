@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5bb06a0-a5b7-42f2-be4e-5171772faa1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcards/flash_cards/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcards/flash_cards/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flashcards/flash_cards/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcards/flash_cards/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
